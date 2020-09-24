@@ -5,11 +5,11 @@
         "npm": ">=6.0.0"
     },
     "scripts": {
-        "test": "tap --no-esm"
+        "test": "jest"
     },
     "devDependencies": {
-        "rewiremock": "^3.14.3",
-        "sinon": "^9.0.3",
-        "tap": "^14.10.8"
-    }
+        "@babel/preset-env": "^7.11.5",
+        "jest": "^26.4.2"
+    },
+    "dependencies": {}
 }
