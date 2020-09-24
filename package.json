@@ -1,0 +1,14 @@
+{
+    "type-disabled": "module",
+    "engines": {
+        "node": "=12",
+        "npm": ">=6.0.0"
+    },
+    "scripts": {
+        "test": "tap"
+    },
+    "devDependencies": {
+        "sinon": "^9.0.3",
+        "tap": "^14.10.8"
+    }
+}
