@@ -5,7 +5,7 @@
         "npm": ">=6.0.0"
     },
     "scripts": {
-        "test": "tap"
+        "test": "tap --no-esm"
     },
     "devDependencies": {
         "sinon": "^9.0.3",
